@@ -9,7 +9,6 @@ PERSIST_DIR="./chroma_store"
 UPLOAD_DIR="./uploaded_pdfs"
 os.makedirs(UPLOAD_DIR, exist_ok=True)
 
-# Load, split, embed and upsert PDF content
 def load_vectorstore(uploaded_files):
     # embed_model = GoogleGenerativeAIEmbeddings(model="models/embedding-001")
     file_paths = []
