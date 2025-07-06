@@ -33,22 +33,22 @@ This project combines the power of **LangChain**, **Groq LLMs (LLaMA3-70B)**, **
 
 Docscribe/
 ├── server/
-│ ├── main.py # FastAPI entry point
+│ ├── main.py
 │ ├── modules/
-│ │ ├── llm.py # LLM prompt and RetrievalQA chain
-│ │ ├── load_vectorstore.py # PDF loading, embedding, vectorstore
-│ │ ├── pdf_handler.py # File save utility
-│ │ ├── query_handler.py # Chain runner + logger
-│ └── logger.py # Loguru setup
-│ └── requirements.txt # Server dependencies
+│ │ ├── llm.py
+│ │ ├── load_vectorstore.py
+│ │ ├── pdf_handler.py
+│ │ ├── query_handler.py
+│ └── logger.py
+│ └── requirements.txt
 │
 ├── client/
-│ ├── app.py # Streamlit UI entry point
-│ ├── utils/api.py # Frontend API connectors
-│ └── components/ # Upload, chat, and history UI modules
+│ ├── app.py
+│ ├── utils/api.py
+│ └── components/
 │
-├── uploaded_pdfs/ # Stored uploaded PDFs
-├── chroma_store/ # Persistent vectorstore
+├── uploaded_pdfs/
+├── chroma_store/
 
 ```
 
@@ -59,8 +59,8 @@ Docscribe/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/docscribe.git
-cd docscribe
+git clone https://github.com/your-username/Docscribe.git
+cd Docscribe
 ```
 
 ### 2. Set Up Environment Variables
