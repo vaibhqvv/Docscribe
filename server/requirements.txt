@@ -5,7 +5,6 @@ python-multipart
 
 # LangChain & Ecosystem
 langchain
-langchain-community
 langchain-core
 langchain-groq
 
